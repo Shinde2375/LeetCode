@@ -1,0 +1,18 @@
+
+//1624. Largest Substring Between Two Equal Characters  31/12/2023(Sunday);
+
+public class Solution60 {
+    
+    public int maxLengthBetweenEqualCharacters(String s) {
+        int ans = -1;
+        for (int left = 0; left < s.length(); left++) {
+            for (int right = left + 1; right < s.length(); right++) {
+                if (s.charAt(left) == s.charAt(right)) {
+                    ans = Math.max(ans, right - left - 1);
+                }
+            }
+        }
+        
+        return ans;
+    }
+}
