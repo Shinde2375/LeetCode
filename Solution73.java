@@ -1,4 +1,4 @@
-//1347. Minimum Number of Steps to Make Two Strings Anagram         12/01/2024(Saturday);
+//1347. Minimum Number of Steps to Make Two Strings Anagram         13/01/2024(Saturday);
 
 import java.util.HashMap;
 
