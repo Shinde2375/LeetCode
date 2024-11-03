@@ -4,17 +4,16 @@ public class Solution7 {
     { 
         Boolean isDigit=false,isCap=false,isSlashSpace=false,isNumStart=false,isLen=false; 
         
-        isLen = n greater than=4; 
-        isNumStart = (str[0] greater than ='0' && str[0] less than ='9');
+        isNumStart = (str[0] >='0' && str[0]<='9');
         
-        for(int i=1;i less than n;i++) 
+        for(int i=1;i< n;i++) 
         { if(str[i]==' '|| str[i]=='/') 
         isSlashSpace=true; 
         
-        else if(str[i] greater than ='A'&&str[i] less than ='Z') 
+        else if(str[i] >='A'&&str[i] <='Z') 
         isCap=true; 
         
-        else if(str[i] greater than ='0' && str[i] less than ='9')
+        else if(str[i] >='0' && str[i] <='9')
         
         isDigit=true; 
     }
