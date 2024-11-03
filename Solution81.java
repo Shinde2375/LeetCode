@@ -10,3 +10,4 @@ public class Solution81 {
             return (s+s).contains(goal);
             }    
 }
+
